@@ -1,1 +1,1 @@
-[1] *String Condensations in 3+1D and Lagrangian Algebras*, with *Jia-Qi Lou*, *Zhi-Hao Zhang*, *Liang Kong* and *Yin Tian*. *Advances in Theoretical and Mathematical Physics*, Volume 27, October 12, 2023
+[1] *String Condensations in 3+1D and Lagrangian Algebras*, with Jia-Qi Lou, Zhi-Hao Zhang, Liang Kong and Yin Tian. *Advances in Theoretical and Mathematical Physics*, Volume 27, October 12, 2023
