@@ -3,3 +3,16 @@ page-top-title: Jiaheng Zhao
 top-section-bg-text:
 home-subtitle: Jiaheng Zhao's homepage
 copyright-text: '&copy; JiaHeng Zhao 2023-2024. All Rights Reserved.'
+
+
+home-subtitle: "Welcome to My Academic Webpage"
+conference-slides-subtitle: "Upcoming Conferences and Talks"
+writings-and-slides-subtitle: "Expository Writings"
+publications-subtitle: "My Publications"
+preprints-subtitle: "Preprints and Research"
+
+home-md: "home.md"
+conference-md: "conference.md"
+writings-and-slides-md: "writings-and-slides.md"
+publications-md: "publications.md"
+preprints-md: "preprints.md"

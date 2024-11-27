@@ -10,7 +10,6 @@ This is my (CV)[].
 
 I used to work in the field of topological order, an intersection of category theory and condensed matter physics.
 
-Now I am interested in algebraic topology, higher algebra, $K$-theory, mathematical physics and any other related topics.
 #### Email
 E-mail: zhaojiaheng171@mails.ucas.ac.cn
 

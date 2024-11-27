@@ -1,6 +1,6 @@
 const content_dir = 'contents/';
 const config_file = 'config.yml';
-const section_names = ['home', 'publications', 'expository-writings', 'conference','preprints'];
+const section_names = ['home', 'publications', 'expository-writings', 'conference', 'preprints'];
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -11,7 +11,7 @@ window.addEventListener('DOMContentLoaded', event => {
             target: '#mainNav',
             offset: 74,
         });
-    };
+    }
 
     // Collapse responsive navbar when toggler is visible
     const navbarToggler = document.body.querySelector('.navbar-toggler');
@@ -35,9 +35,9 @@ window.addEventListener('DOMContentLoaded', event => {
                 try {
                     document.getElementById(key).innerHTML = yml[key];
                 } catch {
-                    console.log("Unknown id and value: " + key + "," + yml[key].toString())
+                    console.log("Unknown id and value: " + key + "," + yml[key].toString());
                 }
-            })
+            });
         })
         .catch(error => console.log(error));
 
