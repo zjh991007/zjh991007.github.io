@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="Academic Webpage" />
-    <meta name="author" content="senli1073" />
+    <meta name="author" content="jiaheng zhao" />
     <title id="title"></title>
 
     <!-- Icon -->
@@ -45,11 +45,11 @@
                 packages: {},              // extensions to use
                 inlineMath: [              // start/end delimiter pairs for in-line math
                     ['$', '$'],
-                    ['\\(', '\\)']
+                    ['\$', '\$']
                 ],
                 displayMath: [             // start/end delimiter pairs for display math
                     ['$$', '$$'],
-                    ['\\[', '\\]']
+                    ['\$', '\$']
                 ],
                 processEscapes: false,      // use \$ to produce a literal dollar sign
                 processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
@@ -82,7 +82,6 @@
     <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
             <a id="page-top-title" class="navbar-brand fw-bold" href="#page-top"></a>
-            <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 MENU
@@ -94,12 +93,17 @@
                         <a class="nav-link me-lg-3" href="#page-top">HOME</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#conference">CONFERENCE</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link me-lg-3" href="#expository-writings">EXPOSITORY WRITINGS</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#awards">AWARDS</a>
+                        <a class="nav-link me-lg-3" href="#preprints">PREPRINTS</a>
                     </li>
-
                 </ul>
             </div>
         </div>
@@ -115,25 +119,38 @@
     </section>
     <!-- Top Section -->
 
-    <!-- Photo -->
-    <div class="container px-5">
-        <div id="avatar">
-            <img class="shadow" src="static/assets/img/photo.png">
-        </div>
-    </div>
-    <!-- Photo -->
-    
     <!-- Home -->
     <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
         <div class="container px-5">
             <header>
                 <h2 id="home-subtitle"> </h2>
-                <!-- <span class="bi bi-list"></span> -->
             </header>
             <div class="main-body" id="home-md"></div>
         </div>
     </section>
     <!-- Home -->
+
+    <!-- Conference -->
+    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="conference">
+        <div class="container px-5">
+            <header>
+                <h2 id="conference-slides-subtitle"><i class="bi bi-file-earmark-ppt-fill"></i>&nbsp;CONFERENCE</h2>
+            </header>
+            <div class="main-body" id="conference-md"></div>
+        </div>
+    </section>
+    <!-- Conference -->
+
+    <!-- Expository Writings -->
+    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="expository-writings">
+        <div class="container px-5">
+            <header>
+                <h2 id="expository-writings-subtitle"><i class="bi bi-book-half"></i>&nbsp;EXPOSITORY WRITINGS</h2>
+            </header>
+            <div class="main-body" id="expository-writings-md"></div>
+        </div>
+    </section>
+    <!-- Expository Writings -->
 
     <!-- Publications -->
     <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
@@ -142,32 +159,29 @@
                 <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
             </header>
             <div class="main-body" id="publications-md"></div>
-
         </div>
     </section>
-    <!-- Publications  -->
+    <!-- Publications -->
 
-    <!-- Awards -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="awards">
+    <!-- Preprints -->
+    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="preprints">
         <div class="container px-5">
             <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award-fill"></i>AWARDS </h2>
+                <h2 id="preprints-subtitle"><i class="bi bi-file-earmark-text-fill"></i>&nbsp;PREPRINTS</h2>
             </header>
-            <div class="main-body" id="awards-md"></div>
-
+            <div class="main-body" id="preprints-md"></div>
         </div>
     </section>
-    <!-- Awards -->
-
+    <!-- Preprints -->
 
     <!-- Footer-->
     <footer class="bg-bottom text-center py-5">
         <div class="container px-5">
             <div class="text-white-50 small">
                 <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/senli1073">Github</a>
+                <a id="github-link" href="https://github.com/zjh19991007">Github</a>
                 <span class="mx-1">&middot;</span>
-                <a id="license-link" href="https://github.com/senli1073/senli1073.github.io/blob/main/LICENSE">License</a>
+                <a id="license-link" href="https://github.com/zjh19991007/zjh19991007.github.io/blob/main/LICENSE">License</a>
             </div>
         </div>
     </footer>

@@ -1,9 +1,6 @@
-
-
-const content_dir = 'contents/'
-const config_file = 'config.yml'
-const section_names = ['home', 'publications', 'awards']
-
+const content_dir = 'contents/';
+const config_file = 'config.yml';
+const section_names = ['home', 'publications', 'expository-writings', 'conference','preprints'];
 
 window.addEventListener('DOMContentLoaded', event => {
 
@@ -29,7 +26,6 @@ window.addEventListener('DOMContentLoaded', event => {
         });
     });
 
-
     // Yaml
     fetch(content_dir + config_file)
         .then(response => response.text())
@@ -41,25 +37,24 @@ window.addEventListener('DOMContentLoaded', event => {
                 } catch {
                     console.log("Unknown id and value: " + key + "," + yml[key].toString())
                 }
-
             })
         })
         .catch(error => console.log(error));
 
-
     // Marked
-    marked.use({ mangle: false, headerIds: false })
+    marked.use({ mangle: false, headerIds: false });
     section_names.forEach((name, idx) => {
         fetch(content_dir + name + '.md')
             .then(response => response.text())
             .then(markdown => {
                 const html = marked.parse(markdown);
                 document.getElementById(name + '-md').innerHTML = html;
-            }).then(() => {
+            })
+            .then(() => {
                 // MathJax
                 MathJax.typeset();
             })
             .catch(error => console.log(error));
-    })
+    });
 
-}); 
+});
